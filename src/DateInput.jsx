@@ -1,7 +1,8 @@
-export function DateInput() {
+export function DateInput(props) {
   const handleClick = event => {
     event.preventDefault();
     const params = new FormData(event.target);
+    props.onSubmitParams(params);
     console.log(params);
     event.target.reset();
   };
