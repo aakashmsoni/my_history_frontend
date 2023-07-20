@@ -4,6 +4,7 @@ html {
 
 #root {
   background-color:blanchedalmond;
+  background: linear-gradient(rgba(250, 196, 0, 0.5),transparent);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
