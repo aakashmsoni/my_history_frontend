@@ -1,3 +1,11 @@
 html {
   scroll-behavior: smooth;
 }
+
+#root {
+  background-color:blanchedalmond;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 100vh;
+}
