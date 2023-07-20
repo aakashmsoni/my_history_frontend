@@ -1,6 +1,8 @@
+import "./Header.scoped.scss";
+
 export function Header() {
   return (
-    <header>
+    <header className="header">
       <nav className="navbar bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
