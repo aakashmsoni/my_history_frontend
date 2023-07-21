@@ -2,12 +2,12 @@ export function EventsIndex(props) {
   return (
     <div id="events-index">
       {props.events[0] === undefined ? (
-        <div>
+        <div className="events-header text-center">
           <h3>select a date!</h3>
         </div>
       ) : (
         <div>
-          <h1>
+          <h1 className="text-center">
             {props.events[0].month}/{props.events[0].day}
           </h1>
 
@@ -20,10 +20,7 @@ export function EventsIndex(props) {
                       <img src="/src/assets/carousel-bg.jpeg" className="card-img"></img>
                       <div className="card-img-overlay">
                         <h5 className="card-header">{event.year}</h5>
-                        <div className="card-body text-center fs-4 fw-light">
-                          {event.event}
-                          {/* <footer className="footer">{event.year}</footer> */}
-                        </div>
+                        <div className="card-body text-center fs-4 fw-light">{event.event}</div>
                       </div>
                     </div>
                   </div>
