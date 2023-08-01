@@ -8,7 +8,7 @@ export function DateInput(props) {
   };
   return (
     <div className="container w-25 mt-2 mb-2">
-      <div className="card text-center text-bg-warning border-secondary">
+      <div className="card text-center text-bg-success border-secondary">
         <div className="card-body">
           <form onSubmit={handleClick}>
             <select name="month" type="number" aria-label="Select month">
